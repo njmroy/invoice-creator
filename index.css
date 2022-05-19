@@ -1,25 +1,79 @@
+html {
+    max-width: 850px;
+    min-width: 600px;
+}
+hr {
+    margin-bottom: 30px;
+    opacity: 50%;
+}
+a{
+    background:rgb(9, 8, 48);
+}
 .hero-container {
     background-color: rgb(101, 101, 225);
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     display:block;
-    padding: 30px 20px;
+    padding: 5vh 5vh;
     text-align: center;
 
 }
 
 .page-container {
-    padding: 20px 20px;
+    padding: 3vh 3vh;
     background-color: rgb(9, 8, 48);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    height: 80vh;
+    overflow: auto;
 }
 
 .buttons {
-border-radius: 3px;
+border-radius: 10px;
 border: none;
 background-color: rgb(228, 207, 247);
 color: rgb(87, 44, 107);
-padding: 5px 5px;
-margin: 2px 3px;
+padding: 15px 25px;
+white-space: nowrap;
+
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    padding: 2vh 4vh;
+
+    margin: 10px 10px;
+}
+
+.floatright {
+    float:right; 
+}
+
+.floatleft {
+    float:left; 
+}
+
+.bigfont {
+    font-size: 30px;
+    color: rgb(149, 194, 224);
+    font-weight: bold;
+}
+
+#task {
+    font-size: 10px;
+}
+
+#payments-accepted {
+    font-style:italic; 
+    font-weight:lighter;
+    opacity: 45%;
+}
+
+
+#under-hr-container {
+    display: grid;
+  
+    align-items: center;
 }
